@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Android Apps on Google Play</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="assets/googleplay-icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="main">
+        <img class="logo" src="./assets/googleplay-logo.png" alt="googleplay-logo">
+
+        <input class="searchbox" type="Search" placeholder="Search" size="100">
+
+        <input class="search" type="image" src="./assets/search-blue.png" alt="Search" value="Search" width="10"
+            height="30" />
+
+
+
+        <div class="m1">
+            <div class="dropdown-1">
+                <a href="#menu" onclick="myFunction1()" class="dropbtn-1">
+
+                    <img src="./assets/menu.png" alt="menu" width="20" height="20">
+                </a>
+                <div id="myDropdown-1" class="dropdown-1-content">
+                    <table>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/account.png" alt="account" width="40"
+                                        height="40">Account</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/googlesearch-icon.png" alt="search"
+                                        width="40" height="40">Search</a></td>
+
+                            <td class="gapps"> <a href="#"><img src="assets/youtube.png" alt="youtube" width="40"
+                                        height="40">
+                                    YouTube</a></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/googleplay-icon.png" alt="play" width="40"
+                                        height="40">Play</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/news.png" alt="news" width="40"
+                                        height="40">News</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/gmail-icon.png" alt="gmail" width="40"
+                                        height="40">
+                                    Gmail</a></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/meet.png" alt="meet" width="40"
+                                        height="40">Meet</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/chat.png" alt="chat" width="40"
+                                        height="40">Chat</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/contacts.png" alt="contacts" width="40"
+                                        height="40">
+                                    Contacts</a></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/googledrive-icon.png" alt="drive" width="40"
+                                        height="40">Drive</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/calendar.png" alt="calendar" width="40"
+                                        height="40">Calendar</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/translate.png" alt="translate" width="40"
+                                        height="40">
+                                    Translate</a></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/googlephotos-icon.png" alt="photos"
+                                        width="40" height="40">Photos</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/googleduo-icon.png" alt="duo" width="40"
+                                        height="40"><br />Duo </a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/chrome-icon.png" alt="chrome" width="40"
+                                        height="40">
+                                    Chrome</a></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/shopping.png" alt="shopping" width="40"
+                                        height="40">Shopping</a></td>
+
+                            <td class="gapps"></td>
+
+                            <td class="gapps"></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps" colspan="3">
+                                <hr />
+                            </td>
+                        </tr>
+
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/Finance.png" alt="finance" width="40"
+                                        height="40">Finance</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/docs.png" alt="docs" width="40"
+                                        height="40">Docs</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/sheets.png" alt="sheets" width="40"
+                                        height="40">
+                                    Sheet</a></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/slides.png" alt="slides" width="40"
+                                        height="40">Slides</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/books.png" alt="books" width="40"
+                                        height="40">Books</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/blogger.png" alt="blogger" width="40"
+                                        height="40">
+                                    Blogger</a></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/googlehangouts-icon.png" alt="hangsout"
+                                        width="40" height="40">Hangouts</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/keep.png" alt="keeps" width="40"
+                                        height="40">Keeps</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/jamboard.png" alt="jamboard" width="40"
+                                        height="40">
+                                    Jamboard</a></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/googleearth-icon.png" alt="earth" width="40"
+                                        height="40">Earth</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/collection.png" alt="collections" width="40"
+                                        height="40">Collections</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/artsculture.png" alt="artsculture" width="40"
+                                        height="40">
+                                    Arts and<br />Culture</a></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/googleads-icon.png" alt="ads" width="40"
+                                        height="40">Google Ads</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/podcasts.png" alt="podcasts" width="40"
+                                        height="40">Podcasts</a></td>
+
+                            <td class="gapps"><a href="#"><img src="assets/travel.png" alt="travel" width="40"
+                                        height="40">
+                                    Travel</a></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps"><a href="#"><img src="assets/forms.png" alt="forms" width="40"
+                                        height="40">Forms</a></td>
+
+                            <td class="gapps"></td>
+
+                            <td class="gapps"></td>
+                        </tr>
+                        <tr class="gapps">
+                            <td class="gapps" colspan="3">
+                                <button class="gapps">More from Google</button>
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- <div class="m1">
+
+            <img src="./assets/menu.png" alt="menu" width="20" height="20">
+        </div> -->
+
+        <button class="signin">Sign in</button>
+
+    </div>
+
+    <div class="sm">
+
+        <div class="vertical-menu">
+            <a href="#" class="active">
+                <img src="./assets/menu-apps.png" alt="apps" width="16" height="16">
+                <span class="app">Apps</span></a>
+
+        </div>
+
+
+        <ul class="topmenu">
+
+            <li class="topmenu">
+                <div class="dropdown">
+                    <a href="#categories" onclick="myFunction()" class="dropbtn">
+                        Categories
+                        <img src="./assets/down-arrow.png" alt="downarrow" width="15" height="15">
+                    </a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <table>
+                            <tr>
+                                <td> <a href="#">Art &amp; Design</a></td>
+
+                                <td><a href="#">Games
+                                        <hr />
+                                    </a></td>
+
+                                <td> <a href="#">Kids
+                                        <hr />
+                                    </a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Augmented reality</a></td>
+                                <td><a href="#">Action
+                                    </a></td>
+                                <td><a href="#">Ages up to 5</a></td>
+                            </tr>
+                            <tr>
+                                <td> <a href="#">Auto &amp; Vehicles</a></td>
+                                <td><a href="#">Adventure
+                                    </a></td>
+                                <td><a href="#">Ages 6-8</a></td>
+                            </tr>
+
+                            <tr>
+                                <td><a href="#">Beauty</a></td>
+                                <td><a href="#">Arcade
+                                    </a></td>
+                                <td> <a href="#">Ages 9-12</a></td>
+
+                            </tr>
+                            <tr>
+
+                                <td><a href="#">Books &amp; Reference</a></td>
+                                <td><a href="#">Board
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Business</a></td>
+                                <td><a href="#">Card
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Comics</a></td>
+                                <td><a href="#">Casino
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Communication</a></td>
+                                <td><a href="#">Casual
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Dating</a></td>
+                                <td><a href="#">Educational
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Daydream</a></td>
+                                <td><a href="#">Music
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Education</a></td>
+                                <td><a href="#">Puzzle
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Entertainment</a></td>
+                                <td><a href="#">Racing
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Events</a></td>
+                                <td><a href="#">Role Playing
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Finance</a></td>
+                                <td><a href="#">Simulation
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Food &amp; Drink</a></td>
+                                <td><a href="#">Sports
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Health &amp; Fitness</a></td>
+                                <td><a href="#">Strategy
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">House &amp; Home</a></td>
+                                <td><a href="#">Trivia
+                                    </a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Libraries &amp; Demo</a></td>
+                                <td><a href="#">Word</a></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Lifestyle</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Maps &amp; Navigation</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Medical</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Music &amp; Audio</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">News &amp; Magazines</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Parenting</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Personalization</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Photography</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Productivity</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Shopping</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Social</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Sports</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Tools</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Travel &amp; Local</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Video Players & Editors</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Watch apps</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Watch faces</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href="#">Weather</a></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                        </table>
+
+
+
+
+
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="topmenu"><a href="#home">Home</a></li>
+            <li class="topmenu"><a href="#topcharts">Top charts</a></li>
+            <li class="topmenu"><a href="#newreleases">New releases</a></li>
+        </ul>
+        <div class="smbtn">
+            <a href="#help">
+                <img class="sm" src="./assets/help.png" alt="help" width="25" height="25">
+            </a>
+            <a href="#setting">
+                <img class="sm" src="./assets/settings.png" alt="settings" width="25" height="25">
+            </a>
+        </div>
+    </div>
+
+
+
+    <div class="parent">
+
+        <div class="leftbox">
+
+            <ul id="opt1">
+                <li class="top"><a href="#">My apps</a></li>
+                <li class="top"><a href="#">Shop</a></li>
+                <li class="hline">
+                    <hr />
+                </li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Editor's choice</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Payment methods</a></li>
+                <li><a href="#">My subscription</a></li>
+                <li><a href="#">Redeeem</a></li>
+                <li><a href="#">Buy gift card</a></li>
+                <li><a href="#">My wishlist</a></li>
+                <li><a href="#">My play activity</a></li>
+                <li><a href="#">Parent Guide</a></li>
+            </ul>
+        </div>
+
+        <div class="centerbox">
+            <p class="head">
+
+                Low on space&quest;
+                <button class="seemore">See more</button>
+                <br /><span class="shead">Lightweight apps</span>
+
+            </p>
+
+            <div class="box">
+                <img class="icon" src="./assets/youtube.png" alt="youtube" width="120" height="120">
+                <p>YouTube<br /> Google LLC </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box">
+                <img class="icon" src="./assets/facebook.png" alt="youtube" width="120" height="120">
+                <p>Facebook<br /> Mediaplatforms, Inc.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box">
+                <img class="icon" src="./assets/facebook-lite.png" alt="youtube" width="120" height="120">
+                <p>Facebook<br /> Mediaplatforms, Inc.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-blank1.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box">
+                <img class="icon" src="./assets/tiktok.png" alt="youtube" width="120" height="120">
+                <p>Tiktok<br /> TikTok pte Ltd.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-blank1.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box">
+                <img class="icon" src="./assets/nettflix.png" alt="youtube" width="120" height="120">
+                <p>Netflix<br /> Netflix, Inc.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-blank1.png" alt="youtube" width="15" height="15">
+            </div>
+            <p class="head">
+                Recommended for you
+                <button class="seemore1">See more</button>
+            </p>
+            <div class="box">
+                <img class="icon" src="./assets/instagram.png" alt="youtube" width="120" height="120">
+                <p>Instagram<br /> Instagram</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-blank1.png" alt="youtube" width="15" height="15">
+            </div>
+
+            <div class="box"><img class="icon" src="./assets/chrome-icon.png" alt="youtube" width="120" height="120">
+                <p>Google Chrome<br /> Google LLC </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+
+            <div class="box"><img class="icon" src="./assets/gmail-icon.png" alt="youtube" width="120" height="120">
+                <p>Gmail<br /> Google LLC </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+
+
+            <div class="box"><img class="icon" src="./assets/googlemaps-icon.png" alt="youtube" width="120"
+                    height="120">
+                <p>Google Maps<br /> Google LLC </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+
+
+            <div class="box"><img class="icon" src="./assets/pdf-icon.png" alt="youtube" width="120" height="120">
+                <p>Adobe Acrobat Re<br /> Adobe </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+
+            <div class="box"><img class="icon" src="./assets/whatsapp-icon.png" alt="youtube" width="120" height="120">
+                <p>WhatsApp Messeng<br /> WhatsApp LLC </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+
+
+
+
+
+            <div class="box"> <img class="icon" src="./assets/tiktok.png" alt="youtube" width="120" height="120">
+                <p>Tiktok<br /> TikTok pte Ltd.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-blank1.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box"> <img class="icon" src="./assets/nettflix.png" alt="youtube" width="120" height="120">
+                <p>Netflix<br /> Netflix, Inc.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-blank1.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box"><img class="icon" src="./assets/youtube.png" alt="youtube" width="120" height="120">
+                <p>YouTube<br /> Google LLC </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box"><img class="icon" src="./assets/facebook.png" alt="youtube" width="120" height="120">
+                <p>Facebook<br /> Mediaplatforms, Inc.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+            <p class="head">
+                Popular apps &amp; games
+                <button class="seemore1">See more</button>
+            </p>
+            <div class="box"><img class="icon" src="./assets/whatsapp-icon.png" alt="youtube" width="120" height="120">
+                <p>WhatsApp Messeng<br /> WhatsApp LLC </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box"><img class="icon" src="./assets/youtube.png" alt="youtube" width="120" height="120">
+                <p>YouTube<br /> Google LLC </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box"><img class="icon" src="./assets/facebook.png" alt="youtube" width="120" height="120">
+                <p>Facebook<br /> Mediaplatforms, Inc.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box"><img class="icon" src="./assets/chrome-icon.png" alt="youtube" width="120" height="120">
+                <p>Google Chrome<br /> Google LLC </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box"> <img class="icon" src="./assets/tiktok.png" alt="youtube" width="120" height="120">
+                <p>Tiktok<br /> TikTok pte Ltd.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-blank1.png" alt="youtube" width="15" height="15">
+            </div>
+
+
+
+            <div class="box"><img class="icon" src="./assets/skype-icon.png" alt="youtube" width="120" height="120">
+                <p>Skype<br /> Skype </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+
+
+            <div class="box">
+                <img class="icon" src="./assets/facebook-lite.png" alt="youtube" width="120" height="120">
+                <p>Facebook<br /> Mediaplatforms, Inc.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-blank1.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box"><img class="icon" src="./assets/googlemaps-icon.png" alt="youtube" width="120"
+                    height="120">
+                <p>Google Maps<br /> Google LLC </p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-hf.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box">
+                <img class="icon" src="./assets/nettflix.png" alt="youtube" width="120" height="120">
+                <p>Netflix<br /> Netflix, Inc.</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-blank1.png" alt="youtube" width="15" height="15">
+            </div>
+            <div class="box">
+                <img class="icon" src="./assets/instagram.png" alt="youtube" width="120" height="120">
+                <p>Instagram<br /> Instagram</p>
+                <img class="rating" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-ff.png" alt="youtube" width="15" height="15">
+                <img class="rating1" src="./assets/star-blank1.png" alt="youtube" width="15" height="15">
+            </div>
+        </div>
+        <div class="rightbox"></div>
+        <div>
+
+
+</body>
+
+</html>
